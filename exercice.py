@@ -1,4 +1,5 @@
 # variable = input(phrase)
+# float (4.2) integer (5)
 
 nom = input("ton nom de famille ")
 prenom = input("tu t'appel ")
@@ -13,10 +14,11 @@ info.append(age)
 
 print(info)
 
-#Dictionnaire
+#Dictionnaire nom (personne) ['variable'] = variable automatiser
 
 personne = {}
 personne['nom'] = nom
 personne['prenom'] = prenom
 personne['age'] = age
 print(personne)
+info[1]
