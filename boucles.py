@@ -1,25 +1,25 @@
-legumes = ["Salade", "Carotte", "Choux", "Aubergine"]
-
-##############
+pyramide = ["#", "##", "###", "####"]
+##########
 # boucle sur une variable
-##############
-for x in legumes:
+##########
+for x in pyramide:
     print(x)
-##############
+
+##########
 # boucle sur une range
-##############
-def pyra():
-    counter = 1
-    valeur = int(input("choisi un nombre d'etage: "))
+##########
+counter = 1
+valeur = int(input("Choisis un nombre d'étages: "))
 
-    for etage in range(7):
-        print("#" * counter)
-        counter += 1
-##############
-# boucle sur une condition / tant que x <= y, j'execute
-##############
-etage = 1
+for x in range(valeur):
+    print("#" * counter)
+    counter += 1
 
-while etage <= 7:
+#########
+# boucle sur une condition | tant que x <= y, j'execute
+#########
+etages = 1
+
+while etages <= 7:
     print("#"*etages)
-    etage += 1
+    etages += 1

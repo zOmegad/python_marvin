@@ -1,8 +1,9 @@
-
-age = int(input("quel age avais vous? ")) #int convertir en chiffre
-
-if age <= 18:
-    print('bonjour jeune homme')
-
-elif age > 18:
-    print('bonjour monsieur')
+heure = 4
+if heure < 4: # si heure est inferieur a 4
+    print("vert")
+elif heure > 4: # ou alors superieur à 4
+    print("rouge")
+elif heure > 20: # ou alors superieur à 20
+    print("rose")
+else: # sinon
+    print("orange")
